@@ -338,6 +338,10 @@ a {
   color: #000;
 }
 
+.card--secondary h3{
+  color: #000;
+}
+
 .card--primary .badge--primary {
   background: #126de4;
 }

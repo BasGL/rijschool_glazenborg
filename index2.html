@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Rijschool Glazenborg</title>
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
       href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap"
@@ -21,10 +21,12 @@
           <use xlink:href="images/sprite.svg#menu"></use>
         </svg>
         <ul class="list nav__list collapsible__content">
-          <li class="nav__item"><a href="#">Rijlessen</a></li>
-          <li class="nav__item"><a href="#">Pakketen</a></li>
-          <li class="nav__item"><a href="#">Contact</a></li>
-          <li class="nav__item"><a href="#">FAQ</a></li>
+          <li class="nav__item"><a href="#rijlessen">Rijlessen</a></li>
+          <li class="nav__item"><a href="#plans">Pakketen</a></li>
+          <li class="nav__item">
+            <a href="mailto:info@richardglazenborg.nl">Contact</a>
+          </li>
+          <li class="nav__item"><a href="#info">Over Ons</a></li>
         </ul>
       </nav>
     </header>
@@ -39,7 +41,7 @@
             middel van professionele rijlessen, flexibele pakketten en
             persoonlijke begeleiding.
           </p>
-          <a href="plans" class="btn btn--accent btn--stretched">Begin nu!</a>
+          <a href="#plans" class="btn btn--accent btn--stretched">Begin nu!</a>
         </header>
         <picture>
           <img
@@ -54,9 +56,16 @@
     <section class="block container block-domain">
       <header class="block__header">
         <h2 data-aos="fade-up">
-          Vanaf €... per les kun jij al beginnen met rijden!
+          Vanaf €62 per les kun jij al beginnen met rijden!
         </h2>
-        <p>Dus waar wacht je nog op?!</p>
+        <p id="plans">
+          Bij ons starterspakket draait het om jouw groei. Na ongeveer 12 lessen
+          evalueren we samen jouw voortgang en kun je extra lessen aanschaffen
+          tegen een voordelig tarief. Zo ben je goed voorbereid en zelfverzekerd
+          om de weg op te gaan, zonder haastig examen na slechts 15 lessen. In
+          tegenstelling tot een snelle proefles, krijgen we na deze intensieve
+          lessen een veel beter beeld van wat jij nodig hebt.
+        </p>
       </header>
     </section>
     <section class="block container block-plans" data-aos="fade-up">
@@ -64,46 +73,46 @@
         <div class="plan" id="plans">
           <div class="card card--secondary">
             <header class="card__header">
-              <h3 class="plan__name">Pakket</h3>
-              <span class="plan__price">€...</span>
+              <h3 class="plan__name">Starterspakket</h3>
+              <span class="plan__price">€1175</span>
               <span class="plan__billing-cycle">pakket</span>
-              <span class="badge badge--secondary badge--small"
-                >10% KORTING</span
-              >
               <span class="plan__description">Voordeligste keuze!</span>
             </header>
             <div class="card__body">
               <ul class="list list--tick">
-                <li class="list__item">...</li>
-                <li class="list__item">...</li>
-                <li class="list__item">...</li>
-                <li class="list__item">...</li>
+                <li class="list__item">Kostenbesparend</li>
+                <li class="list__item">Gestructureerde aanpak</li>
+                <li class="list__item">Snelle voortgang</li>
+                <li class="list__item">15 lessen + praktijkexamen</li>
               </ul>
-              <button class="btn btn--outline btn--block">
-                Neem contact op
-              </button>
+              <a href="tel:0654967819">
+                <button class="btn btn--outline btn--block">
+                  Neem contact op
+                </button>
+              </a>
             </div>
           </div>
         </div>
-        <div class="plan plan--popular" id="plans">
+        <div class="plan plan--popular">
           <div class="card card--primary">
             <header class="card__header">
-              <h3 class="plan__name">Pakket</h3>
-              <span class="plan__price">€...</span>
+              <h3 class="plan__name">Losse lessen</h3>
+              <span class="plan__price">€62</span>
               <span class="plan__billing-cycle">/les</span>
-              <span class="badge badge--primary badge--small">10% KORTING</span>
               <span class="plan__description">Vaak Gekozen</span>
             </header>
             <div class="card__body">
               <ul class="list list--tick">
-                <li class="list__item">...</li>
-                <li class="list__item">...</li>
-                <li class="list__item">...</li>
-                <li class="list__item">...</li>
+                <li class="list__item">Flexibiliteit</li>
+                <li class="list__item">Persoonlijk tempo</li>
+                <li class="list__item">Gerichte aandacht</li>
+                <li class="list__item">Budgetvriendelijk</li>
               </ul>
-              <button class="btn btn--outline btn--block">
-                Neem contact op
-              </button>
+              <a href="tel:0654967819">
+                <button class="btn btn--outline btn--block">
+                  Neem contact op
+                </button>
+              </a>
             </div>
           </div>
         </div>
@@ -114,25 +123,101 @@
               <span class="plan__price">€0</span>
               <span class="plan__billing-cycle"></span>
               <span class="plan__description"
-                >Voor als je eerst nog even wilt proberen.</span
+                >Voor als je eerst wilt proberen.</span
               >
             </header>
             <div class="card__body">
               <ul class="list list--tick">
-                <li class="list__item">...</li>
-                <li class="list__item">...</li>
-                <li class="list__item">...</li>
-                <li class="list__item">...</li>
+                <li class="list__item">Gratis kennismaking</li>
+                <li class="list__item">Geen verplichting</li>
+                <li class="list__item">Persoonlijk advies</li>
+                <li class="list__item">Zelfvertrouwen opbouwen</li>
               </ul>
-              <button class="btn btn--outline btn--block">
-                Neem contact op
-              </button>
+              <a href="tel:0654967819">
+                <button class="btn btn--outline btn--block">
+                  Neem contact op
+                </button>
+              </a>
             </div>
           </div>
         </div>
       </div>
     </section>
-    <section class="block container">
+    <section class="block container block-plans" data-aos="fade-up">
+      <div class="grid grid--1x3">
+        <div class="plan">
+          <div class="card card--secondary">
+            <header class="card__header">
+              <h3 class="plan__name">Tussentijdse toets (TTT)</h3>
+              <span class="plan__price">€240</span>
+              <span class="plan__billing-cycle"></span>
+              <span class="plan__description">Nog beter voorbereid!</span>
+            </header>
+            <div class="card__body">
+              <ul class="list list--tick">
+                <li class="list__item">Vrijstelling</li>
+                <li class="list__item">Advies CBR</li>
+                <li class="list__item">Verhoogd slagingspercentage</li>
+                <li class="list__item">Examen ervaring opdoen</li>
+              </ul>
+              <a href="tel:0654967819">
+                <button class="btn btn--outline btn--block">
+                  Neem contact op
+                </button>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="plan">
+          <div class="card card--primary">
+            <header class="card__header">
+              <h3 class="plan__name">Praktijk Examen/Herexamen</h3>
+              <span class="plan__price">€275</span>
+              <span class="plan__billing-cycle"></span>
+              <span class="plan__description">Vaak Gekozen</span>
+            </header>
+            <div class="card__body">
+              <ul class="list list--tick">
+                <li class="list__item">Rijbewijs halen</li>
+                <li class="list__item">Toetsing van rijvaardigheid</li>
+                <li class="list__item">Feedback</li>
+                <li class="list__item">Zelfvertrouwen</li>
+              </ul>
+              <a href="tel:0654967819">
+                <button class="btn btn--outline btn--block">
+                  Neem contact op
+                </button>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="plan">
+          <div class="card card--secondary">
+            <header class="card__header">
+              <h3 class="plan__name">Faalansgt Examen</h3>
+              <span class="plan__price">€255</span>
+              <span class="plan__description"
+                >Overwin angst, slaag zelfzeker!</span
+              >
+            </header>
+            <div class="card__body">
+              <ul class="list list--tick">
+                <li class="list__item">Speciale begeleiding</li>
+                <li class="list__item">Stressvermindering</li>
+                <li class="list__item">Zelfvertrouwen</li>
+                <li class="list__item">Verbeterde slaagkansen</li>
+              </ul>
+              <a href="tel:0654967819">
+                <button class="btn btn--outline btn--block">
+                  Neem contact op
+                </button>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="info" class="block container">
       <header class="block__header">
         <h2>Waarom Rijschool Glazenborg?</h2>
         <p>
@@ -152,7 +237,12 @@
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam
             obcaecati vel ad unde est illo at. Labore excepturi officia dolores!
           </p>
-          <a href="#" class="link-arrow">Meer weten</a>
+          <a
+            href="https://www.facebook.com/richard.glazenborg.9/"
+            target="_blank"
+            class="link-arrow"
+            >Meer weten</a
+          >
         </div>
         <picture data-aos="zoom-in-left">
           <source
@@ -178,7 +268,12 @@
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam
             obcaecati vel ad unde est illo at. Labore excepturi officia dolores!
           </p>
-          <a href="#" class="link-arrow">Meer weten</a>
+          <a
+            href="https://www.facebook.com/rijschoolglazenborg/"
+            target="_blank"
+            class="link-arrow"
+            >Meer weten</a
+          >
         </div>
         <picture data-aos="zoom-out">
           <source
@@ -199,12 +294,17 @@
               <use xlink:href="images/sprite.svg#wordpress"></use>
             </svg>
           </span>
-          <h3 class="feature__heading">De Lessen</h3>
+          <h3 class="feature__heading">De Lessen/praktijkexamen</h3>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam
             obcaecati vel ad unde est illo at. Labore excepturi officia dolores!
           </p>
-          <a href="#" class="link-arrow">Meer weten</a>
+          <a
+            href="https://www.youtube.com/watch?v=90DRSSl4QLw"
+            target="_blank"
+            class="link-arrow"
+            >Voorbeeld praktijk examen</a
+          >
         </div>
         <picture data-aos="slide-up">
           <source
@@ -225,12 +325,17 @@
               <use xlink:href="images/sprite.svg#clock"></use>
             </svg>
           </span>
-          <h3 class="feature__heading">Voor een Geslaagd Resultaat!</h3>
+          <h3 class="feature__heading">Theorie examen</h3>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam
             obcaecati vel ad unde est illo at. Labore excepturi officia dolores!
           </p>
-          <a href="#" class="link-arrow">meer weten</a>
+          <a
+            href="https://www.cbr.nl/nl/rijbewijs-halen/auto/theorie-examen-auto/je-theorie-examen-auto-aanvragen"
+            target="_blank"
+            class="link-arrow"
+            >Theorie aanvragen</a
+          >
         </div>
         <picture data-aos="slide-right">
           <source
@@ -245,7 +350,10 @@
         </picture>
       </article>
     </section>
-    <section class="block block--dark block--skewed-right block-showcase">
+    <section
+      id="rijlessen"
+      class="block block--dark block--skewed-right block-showcase"
+    >
       <header class="block__header">
         <h2>Jouw Pad naar je Rijbewijs</h2>
       </header>
@@ -371,7 +479,9 @@
               rijden we naar jouw geslaagd resultaat!
             </p>
           </div>
-          <a href="#" class="btn btn--secondary btn--stretched">begin nu</a>
+          <a href="#plans" class="btn btn--secondary btn--stretched"
+            >begin nu</a
+          >
         </div>
       </div>
     </div>
@@ -380,16 +490,27 @@
       <div class="container grid footer__sections">
         <section class="collapsible collapsible--expanded footer__section">
           <header class="collapsible__header">
-            <h2 class="collapsible__heading footer__heading">Producten</h2>
+            <h2 class="collapsible__heading footer__heading">Social media</h2>
             <svg class="icon icon--white collapsible__chevron">
               <use xlink:href="images/sprite.svg#chevron"></use>
             </svg>
           </header>
           <div class="collapsible__content">
             <ul class="list">
-              <li><a href="#">...</a></li>
-              <li><a href="#">...</a></li>
-              <li><a href="#">...</a></li>
+              <li>
+                <a
+                  href="https://www.facebook.com/rijschoolglazenborg/"
+                  target="_blank"
+                  >Facebook</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://www.instagram.com/rijschool_glazenborg/"
+                  target="_blank"
+                  >Instagram</a
+                >
+              </li>
             </ul>
           </div>
         </section>
@@ -417,9 +538,9 @@
           </header>
           <div class="collapsible__content">
             <ul class="list">
-              <li><a href="#">Contact</a></li>
-              <li><a href="#">E-Mail</a></li>
-              <li><a href="#">Veel gestelde vragen</a></li>
+              <li><a href="tel:0654967819">Contact</a></li>
+              <li><a href="mailto:info@richardglazenborg.nl">E-Mail</a></li>
+              <li><a href="#info">Info</a></li>
             </ul>
           </div>
         </section>
