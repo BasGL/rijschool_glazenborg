@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/styles2.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="nav collapsible">
+        <a class="nav__brand" href="/"><img src="images/logo.png" alt="" /></a>
+        <svg class="icon icon--white nav__toggler">
+          <use xlink:href="images/sprite.svg#menu"></use>
+        </svg>
+        <ul class="list nav__list collapsible__content">
+          <li class="nav__item"><a href="#">Rijlessen</a></li>
+          <li class="nav__item"><a href="#">Pakketen</a></li>
+          <li class="nav__item"><a href="#">Contact</a></li>
+          <li class="nav__item"><a href="#">FAQ</a></li>
+        </ul>
+      </nav>
+    </header>
+    <section class="block block--dark block--skewed-left hero">
+      <div class="container grid grid--1x2">
+        <header class="block__header hero__content">
+          <h1 class="block__heading" data-aos="fade-right">
+            Voor een Geslaagd Resultaat!
+          </h1>
+          <p class="hero__tagline">
+            Bij Rijschool Glazenborg streven we naar een geslaagd resultaat door
+            middel van professionele rijlessen, flexibele pakketten en
+            persoonlijke begeleiding.
+          </p>
+          <a href="plans" class="btn btn--accent btn--stretched">Begin nu!</a>
+        </header>
+        <picture>
+          <img
+            class="hero__image"
+            src="images/richard.png"
+            alt=""
+            data-aos="fade-left"
+          />
+        </picture>
+      </div>
+    </section>
+    <section class="block container block-domain">
+      <header class="block__header">
+        <h2 data-aos="fade-up">
+          Vanaf €... per les kun jij al beginnen met rijden!
+        </h2>
+        <p>Dus waar wacht je nog op?!</p>
+      </header>
+    </section>
+    <section class="block container block-plans" data-aos="fade-up">
+      <div class="grid grid--1x3">
+        <div class="plan" id="plans">
+          <div class="card card--secondary">
+            <header class="card__header">
+              <h3 class="plan__name">Pakket</h3>
+              <span class="plan__price">€...</span>
+              <span class="plan__billing-cycle">pakket</span>
+              <span class="badge badge--secondary badge--small"
+                >10% KORTING</span
+              >
+              <span class="plan__description">Voordeligste keuze!</span>
+            </header>
+            <div class="card__body">
+              <ul class="list list--tick">
+                <li class="list__item">...</li>
+                <li class="list__item">...</li>
+                <li class="list__item">...</li>
+                <li class="list__item">...</li>
+              </ul>
+              <button class="btn btn--outline btn--block">
+                Neem contact op
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="plan plan--popular" id="plans">
+          <div class="card card--primary">
+            <header class="card__header">
+              <h3 class="plan__name">Pakket</h3>
+              <span class="plan__price">€...</span>
+              <span class="plan__billing-cycle">/les</span>
+              <span class="badge badge--primary badge--small">10% KORTING</span>
+              <span class="plan__description">Vaak Gekozen</span>
+            </header>
+            <div class="card__body">
+              <ul class="list list--tick">
+                <li class="list__item">...</li>
+                <li class="list__item">...</li>
+                <li class="list__item">...</li>
+                <li class="list__item">...</li>
+              </ul>
+              <button class="btn btn--outline btn--block">
+                Neem contact op
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="plan">
+          <div class="card card--secondary">
+            <header class="card__header">
+              <h3 class="plan__name">Proefles</h3>
+              <span class="plan__price">€0</span>
+              <span class="plan__billing-cycle"></span>
+              <span class="plan__description"
+                >Voor als je eerst nog even wilt proberen.</span
+              >
+            </header>
+            <div class="card__body">
+              <ul class="list list--tick">
+                <li class="list__item">...</li>
+                <li class="list__item">...</li>
+                <li class="list__item">...</li>
+                <li class="list__item">...</li>
+              </ul>
+              <button class="btn btn--outline btn--block">
+                Neem contact op
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="block container">
+      <header class="block__header">
+        <h2>Waarom Rijschool Glazenborg?</h2>
+        <p>
+          "Kies Rijschool Glazenborg voor een deskundige instructeur, flexibele
+          lessen en een hoog slagingspercentage!"
+        </p>
+      </header>
+      <article class="grid grid--1x2 feature">
+        <div class="feature__content" data-aos="fade-right">
+          <span class="icon-container">
+            <svg class="icon icon--primary">
+              <use xlink:href="images/sprite.svg#easy"></use>
+            </svg>
+          </span>
+          <h3 class="feature__heading">Even Voorstellen</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam
+            obcaecati vel ad unde est illo at. Labore excepturi officia dolores!
+          </p>
+          <a href="#" class="link-arrow">Meer weten</a>
+        </div>
+        <picture data-aos="zoom-in-left">
+          <source
+            type="image/webp"
+            srcset="images/easy.webp 1x, images/easy@2x.webp 2x"
+          />
+          <source
+            type="image/jpg"
+            srcset="images/easy.jpg 1x, images/easy@2x.jpg 2x"
+          />
+          <img class="feature__image" src="images/easy@2x.jpg" alt="" />
+        </picture>
+      </article>
+      <article class="grid grid--1x2 feature">
+        <div class="feature__content" data-aos="fade-left">
+          <span class="icon-container">
+            <svg class="icon icon--primary">
+              <use xlink:href="images/sprite.svg#computer"></use>
+            </svg>
+          </span>
+          <h3 class="feature__heading">Rijschool Glazenborg</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam
+            obcaecati vel ad unde est illo at. Labore excepturi officia dolores!
+          </p>
+          <a href="#" class="link-arrow">Meer weten</a>
+        </div>
+        <picture data-aos="zoom-out">
+          <source
+            type="image/webp"
+            srcset="images/fast.webp 1x, images/fast@2x.webp 2x"
+          />
+          <source
+            type="image/jpg"
+            srcset="images/fast.jpg 1x, images/fast@2x.jpg 2x"
+          />
+          <img class="feature__image" src="images/fast@2x.jpg" alt="" />
+        </picture>
+      </article>
+      <article class="grid grid--1x2 feature">
+        <div class="feature__content" data-aos="fade-right">
+          <span class="icon-container">
+            <svg class="icon icon--primary">
+              <use xlink:href="images/sprite.svg#wordpress"></use>
+            </svg>
+          </span>
+          <h3 class="feature__heading">De Lessen</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam
+            obcaecati vel ad unde est illo at. Labore excepturi officia dolores!
+          </p>
+          <a href="#" class="link-arrow">Meer weten</a>
+        </div>
+        <picture data-aos="slide-up">
+          <source
+            type="image/webp"
+            srcset="images/wordpress.webp 1x, images/wordpress@2x.webp 2x"
+          />
+          <source
+            type="image/jpg"
+            srcset="images/wordpress.jpg 1x, images/wordpress@2x.jpg 2x"
+          />
+          <img class="feature__image" src="images/wordpress@2x.jpg" alt="" />
+        </picture>
+      </article>
+      <article class="grid grid--1x2 feature">
+        <div class="feature__content" data-aos="flip-up">
+          <span class="icon-container">
+            <svg class="icon icon--primary">
+              <use xlink:href="images/sprite.svg#clock"></use>
+            </svg>
+          </span>
+          <h3 class="feature__heading">Voor een Geslaagd Resultaat!</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam
+            obcaecati vel ad unde est illo at. Labore excepturi officia dolores!
+          </p>
+          <a href="#" class="link-arrow">meer weten</a>
+        </div>
+        <picture data-aos="slide-right">
+          <source
+            type="image/webp"
+            srcset="images/support.webp 1x, images/support@2x.webp 2x"
+          />
+          <source
+            type="image/jpg"
+            srcset="images/support.jpg 1x, images/support@2x.jpg 2x"
+          />
+          <img class="feature__image" src="images/support@2x.jpg" alt="" />
+        </picture>
+      </article>
+    </section>
+    <section class="block block--dark block--skewed-right block-showcase">
+      <header class="block__header">
+        <h2>Jouw Pad naar je Rijbewijs</h2>
+      </header>
+      <div class="container grid grid--1x2">
+        <picture class="block-showcase__image">
+          <source
+            type="image/webp"
+            srcset="images/ipad.webp 1x, images/ipad@2x.webp 2x"
+          />
+          <source
+            type="image/png"
+            srcset="images/ipad.png 1x, images/ipad@2x.png 2x"
+          />
+          <img src="images/ipad.png" alt="" data-aos="fade-right" />
+        </picture>
+        <ul class="list" data-aos="fade-up">
+          <li>
+            <div class="media">
+              <div class="media__image">
+                <svg class="icon icon--primary">
+                  <use xlink:href="images/sprite.svg#menu"></use>
+                </svg>
+              </div>
+              <div class="media__body">
+                <h3 class="media__title">De Eerste Lessen</h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Veniam quisquam, ex nostrum vero voluptates dicta excepturi
+                  vel perspiciatis consequuntur ab.
+                </p>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="media">
+              <div class="media__image">
+                <svg class="icon icon--primary">
+                  <use xlink:href="images/sprite.svg#growth"></use>
+                </svg>
+              </div>
+              <div class="media__body">
+                <h3 class="media__title">En Daarna?</h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Veniam quisquam, ex nostrum vero voluptates dicta excepturi
+                  vel perspiciatis consequuntur ab.
+                </p>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="media">
+              <div class="media__image">
+                <svg class="icon icon--primary">
+                  <use xlink:href="images/sprite.svg#menu"></use>
+                </svg>
+              </div>
+              <div class="media__body">
+                <h3 class="media__title">Het Examen</h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Veniam quisquam, ex nostrum vero voluptates dicta excepturi
+                  vel perspiciatis consequuntur ab.
+                </p>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section class="block" data-aos="zoom-in">
+      <header class="block__header">
+        <h2>Wat onze Klanten Zeggen</h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut, ipsam.
+        </p>
+      </header>
+      <div class="container">
+        <div class="card testimonial">
+          <div class="grid grid--1x2">
+            <div class="testimonial__image">
+              <img
+                src="images/testimonial.jpg"
+                alt="A happy, smiling customer"
+              />
+              <span class="icon-container icon-container--accent">
+                <svg class="icon icon--white icon--small">
+                  <use xlink:href="images/sprite.svg#quotes"></use>
+                </svg>
+              </span>
+            </div>
+            <blockquote class="quote">
+              <p class="quote__text">Wat een top kerel!</p>
+              <footer>
+                <div class="media">
+                  <div class="media__image">
+                    <svg class="icon icon--primary quote__line">
+                      <use xlink:href="images/sprite.svg#line"></use>
+                    </svg>
+                  </div>
+                  <div class="media__body">
+                    <h3 class="media__title quote__author">Arjan Dijkstra</h3>
+                    <p class="quote__organization">Dijkstra Company</p>
+                  </div>
+                </div>
+              </footer>
+            </blockquote>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="container" data-aos="zoom-in">
+      <div class="callout callout--primary callout-signup">
+        <div class="grid grid--1x2">
+          <div class="callout__content">
+            <h2 class="callout__heading">Klaar om te beginnen?</h2>
+            <p>
+              Wacht niet langer, zet vandaag nog de eerste stap naar jouw
+              rijbewijs en ervaar zelf waarom zoveel leerlingen voor Glazenborg
+              kiezen. Samen rijden we naar jouw geslaagd resultaat! Wacht niet
+              langer, zet vandaag nog de eerste stap naar jouw rijbewijs en
+              ervaar zelf waarom zoveel leerlingen voor Glazenborg kiezen. Samen
+              rijden we naar jouw geslaagd resultaat!
+            </p>
+          </div>
+          <a href="#" class="btn btn--secondary btn--stretched">begin nu</a>
+        </div>
+      </div>
+    </div>
+
+    <footer class="block block--dark footer">
+      <div class="container grid footer__sections">
+        <section class="collapsible collapsible--expanded footer__section">
+          <header class="collapsible__header">
+            <h2 class="collapsible__heading footer__heading">Producten</h2>
+            <svg class="icon icon--white collapsible__chevron">
+              <use xlink:href="images/sprite.svg#chevron"></use>
+            </svg>
+          </header>
+          <div class="collapsible__content">
+            <ul class="list">
+              <li><a href="#">...</a></li>
+              <li><a href="#">...</a></li>
+              <li><a href="#">...</a></li>
+            </ul>
+          </div>
+        </section>
+        <section class="collapsible footer__section">
+          <header class="collapsible__header">
+            <h2 class="collapsible__heading footer__heading">Bedrijf</h2>
+            <svg class="icon icon--white collapsible__chevron">
+              <use xlink:href="images/sprite.svg#chevron"></use>
+            </svg>
+          </header>
+          <div class="collapsible__content">
+            <ul class="list">
+              <li><a href="#">Over Ons</a></li>
+              <li><a href="#">Wie ben ik?</a></li>
+              <li><a href="#">Geslaagden</a></li>
+            </ul>
+          </div>
+        </section>
+        <section class="collapsible footer__section">
+          <header class="collapsible__header">
+            <h2 class="collapsible__heading footer__heading">Contact</h2>
+            <svg class="icon icon--white collapsible__chevron">
+              <use xlink:href="images/sprite.svg#chevron"></use>
+            </svg>
+          </header>
+          <div class="collapsible__content">
+            <ul class="list">
+              <li><a href="#">Contact</a></li>
+              <li><a href="#">E-Mail</a></li>
+              <li><a href="#">Veel gestelde vragen</a></li>
+            </ul>
+          </div>
+        </section>
+        <section class="collapsible footer__section"></section>
+        <section class="footer__brand">
+          <img src="images/logo.png" alt="" />
+          <p class="footer__copyright">&copy; Copyright 2024 Bas Glazenborg</p>
+        </section>
+      </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>

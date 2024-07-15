@@ -305,6 +305,7 @@ a{
     border: 0;
     flex-grow: 1;
     padding: 1.5rem 2rem;
+    width: 0;
 }
 
 .input-group .btn{
@@ -667,6 +668,10 @@ a{
     align-items: center;
 }
 
+.nav img{
+    width: 100%;
+}
+
 .nav__list{
     width: 100%;
     margin: 0;
@@ -690,6 +695,7 @@ a{
     opacity: 0.5;
     transition: box-shadow .15s;
     cursor: pointer;
+    transform: translateX(33rem);
 }
 
 .nav.collapsible--expanded .nav__toggler{
