@@ -816,6 +816,12 @@ a {
 }
 
 /* Showcase Block */
+
+.showcase__image{
+  margin-right: 2rem;
+  border-radius: 3px;
+}
+
 @media screen and (min-width: 768px) {
   .block-showcase .grid {
     grid-template-columns: 50% 50%;
