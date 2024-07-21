@@ -922,3 +922,10 @@ a {
 .callout-signup {
   transform: translateY(5rem);
 }
+
+/* cbr */
+
+.cbr > a {
+  display: block;
+  padding-top: 2rem;
+}

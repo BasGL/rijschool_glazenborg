@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="nl">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -70,7 +70,7 @@
     </section>
     <section class="block container block-plans" data-aos="fade-up">
       <div class="grid grid--1x3">
-        <div class="plan" id="plans">
+        <div class="plan">
           <div class="card card--secondary">
             <header class="card__header">
               <h3 class="plan__name">Starterspakket</h3>
@@ -86,9 +86,7 @@
                 <li class="list__item">15 lessen + praktijkexamen</li>
               </ul>
               <a href="tel:0654967819">
-                <button class="btn btn--outline btn--block">
-                  Neem contact op
-                </button>
+                <div class="btn btn--outline btn--block">Neem contact op</div>
               </a>
             </div>
           </div>
@@ -109,9 +107,7 @@
                 <li class="list__item">Budgetvriendelijk</li>
               </ul>
               <a href="tel:0654967819">
-                <button class="btn btn--outline btn--block">
-                  Neem contact op
-                </button>
+                <div class="btn btn--outline btn--block">Neem contact op</div>
               </a>
             </div>
           </div>
@@ -134,9 +130,7 @@
                 <li class="list__item">Zelfvertrouwen opbouwen</li>
               </ul>
               <a href="tel:0654967819">
-                <button class="btn btn--outline btn--block">
-                  Neem contact op
-                </button>
+                <div class="btn btn--outline btn--block">Neem contact op</div>
               </a>
             </div>
           </div>
@@ -161,9 +155,7 @@
                 <li class="list__item">Examen ervaring opdoen</li>
               </ul>
               <a href="tel:0654967819">
-                <button class="btn btn--outline btn--block">
-                  Neem contact op
-                </button>
+                <div class="btn btn--outline btn--block">Neem contact op</div>
               </a>
             </div>
           </div>
@@ -184,9 +176,7 @@
                 <li class="list__item">Zelfvertrouwen</li>
               </ul>
               <a href="tel:0654967819">
-                <button class="btn btn--outline btn--block">
-                  Neem contact op
-                </button>
+                <div class="btn btn--outline btn--block">Neem contact op</div>
               </a>
             </div>
           </div>
@@ -208,9 +198,7 @@
                 <li class="list__item">Verbeterde slaagkansen</li>
               </ul>
               <a href="tel:0654967819">
-                <button class="btn btn--outline btn--block">
-                  Neem contact op
-                </button>
+                <div class="btn btn--outline btn--block">Neem contact op</div>
               </a>
             </div>
           </div>
@@ -219,7 +207,7 @@
     </section>
     <section class="block container block-plans" data-aos="fade-up">
       <div class="grid grid--1x3">
-        <div class="plan" id="plans">
+        <div class="plan">
           <div class="card card--secondary">
             <header class="card__header">
               <h3 class="plan__name">BNOR Examen</h3>
@@ -236,9 +224,7 @@
                 <li class="list__item">Op maat gemaakt advies</li>
               </ul>
               <a href="tel:0654967819">
-                <button class="btn btn--outline btn--block">
-                  Neem contact op
-                </button>
+                <div class="btn btn--outline btn--block">Neem contact op</div>
               </a>
             </div>
           </div>
@@ -260,9 +246,7 @@
                 <li class="list__item">Geen verrasingen</li>
               </ul>
               <a href="tel:0654967819">
-                <button class="btn btn--outline btn--block">
-                  Neem contact op
-                </button>
+                <div class="btn btn--outline btn--block">Neem contact op</div>
               </a>
             </div>
           </div>
@@ -272,6 +256,11 @@
     <section id="info" class="block container">
       <header class="block__header">
         <h2>Waarom Rijschool Glazenborg?</h2>
+        <p>
+          Als rij-instructeur ben in het bezit van het ISO certificaat 9100. Ook
+          laat ik mij regelmatig bijscholen, zodat ik goed in kan spelen op
+          veranderingen op de weg of binnen de regelgeving.
+        </p>
       </header>
       <article class="grid grid--1x2 feature">
         <div class="feature__content" data-aos="fade-right">
@@ -295,8 +284,7 @@
           >
         </div>
         <picture data-aos="zoom-in-left">
-          <!-- TODO:goeie image -->
-          <img class="feature__image" src="images/max.jpg" alt="" />
+          <img class="feature__image" src="images/max.webp" alt="" />
         </picture>
       </article>
       <article class="grid grid--1x2 feature">
@@ -306,7 +294,7 @@
               <use xlink:href="images/sprite.svg#computer"></use>
             </svg>
           </span>
-          <h3 class="feature__heading">Rijschool Glazenborg</h3>
+          <h3 id="rijschool" class="feature__heading">Rijschool Glazenborg</h3>
           <p>
             "Bij Rijschool Glazenborg staat jouw veiligheid en rijplezier
             voorop. Ik (Richard) zorg ervoor dat je je op je gemak voelt, want
@@ -322,7 +310,7 @@
         </div>
         <picture data-aos="zoom-out">
           <!-- TODO: -->
-          <img class="feature__image" src="images/auto.jpg" alt="" />
+          <img class="feature__image" src="images/auto.webp" alt="" />
         </picture>
       </article>
       <article class="grid grid--1x2 feature">
@@ -349,7 +337,7 @@
           >
         </div>
         <picture data-aos="slide-up">
-          <img class="feature__image" src="images/lessen.jpg" alt="" />
+          <img class="feature__image" src="images/lessen.webp" alt="" />
         </picture>
       </article>
       <article class="grid grid--1x2 feature">
@@ -365,18 +353,20 @@
             deze link te klikken ga je naar de site voor het aanvragen van
             theorie. Voor leermaterialen kun je op de andere link klikken.
           </p>
-          <a
-            href="https://www.cbr.nl/nl/rijbewijs-halen/auto/theorie-examen-auto/je-theorie-examen-auto-aanvragen"
-            target="_blank"
-            class="link-arrow"
-            >Theorie aanvragen</a
-          >
-          <a
-            href="https://theorie-leren.nl/auto/"
-            target="_blank"
-            class="link-arrow"
-            >Leermaterialen bestellen</a
-          >
+          <div class="cbr">
+            <a
+              href="https://www.cbr.nl/nl/rijbewijs-halen/auto/theorie-examen-auto/je-theorie-examen-auto-aanvragen"
+              target="_blank"
+              class="link-arrow"
+              >Theorie aanvragen</a
+            >
+            <a
+              href="https://theorie-leren.nl/auto/"
+              target="_blank"
+              class="link-arrow"
+              >Leermaterialen bestellen</a
+            >
+          </div>
         </div>
         <picture data-aos="slide-right">
           <img class="feature__image" src="images/cbr.png" alt="" />
@@ -394,7 +384,7 @@
         <picture class="block-showcase__image">
           <img
             class="showcase__image"
-            src="images/papa.jpg"
+            src="images/papa.webp"
             alt=""
             data-aos="fade-right"
           />
@@ -474,7 +464,7 @@
         <div class="card testimonial">
           <div class="grid grid--1x2">
             <div class="testimonial__image">
-              <img src="images/micheal2.jpg" alt="A happy, smiling customer" />
+              <img src="images/vrouw.webp" alt="A happy, smiling customer" />
               <span class="icon-container icon-container--accent">
                 <svg class="icon icon--white icon--small">
                   <use xlink:href="images/sprite.svg#quotes"></use>
@@ -482,7 +472,13 @@
               </span>
             </div>
             <blockquote class="quote">
-              <p class="quote__text">Wat een top kerel!</p>
+              <p class="quote__text">
+                Richard is een leuke gezellige man waar ik veel aan heb gehad!
+                Een lolletje wanneer het kan en serieus wanneer nodig! Ben in 1x
+                geslaagd!! En heb ik mede aan Richard te danken door zijn goeden
+                positieve en nuttige woorden voor dat het moment daar was... en
+                het resultaat mag er zijn! Het is een topper!
+              </p>
               <footer>
                 <div class="media">
                   <div class="media__image">
@@ -491,10 +487,37 @@
                     </svg>
                   </div>
                   <div class="media__body">
-                    <h3 class="media__title quote__author">
-                      Micheal van Gerwen
-                    </h3>
-                    <p class="quote__organization">MVG</p>
+                    <h3 class="media__title quote__author">Michelle Hoiting</h3>
+                  </div>
+                </div>
+              </footer>
+            </blockquote>
+          </div>
+        </div>
+        <div class="card testimonial">
+          <div class="grid grid--1x2">
+            <div class="testimonial__image">
+              <img src="images/sylvia.webp" alt="A happy, smiling customer" />
+              <span class="icon-container icon-container--accent">
+                <svg class="icon icon--white icon--small">
+                  <use xlink:href="images/sprite.svg#quotes"></use>
+                </svg>
+              </span>
+            </div>
+            <blockquote class="quote">
+              <p class="quote__text">
+                Een uitstekende rijschool, met veel persoonlijke aandacht je
+                wordt enorm op je gemak gesteld!
+              </p>
+              <footer>
+                <div class="media">
+                  <div class="media__image">
+                    <svg class="icon icon--primary quote__line">
+                      <use xlink:href="images/sprite.svg#line"></use>
+                    </svg>
+                  </div>
+                  <div class="media__body">
+                    <h3 class="media__title quote__author">Sylvia Hidding</h3>
                   </div>
                 </div>
               </footer>
@@ -527,12 +550,12 @@
     <footer class="block block--dark footer">
       <div class="container grid footer__sections">
         <section class="collapsible collapsible--expanded footer__section">
-          <header class="collapsible__header">
+          <div class="collapsible__header">
             <h2 class="collapsible__heading footer__heading">Social media</h2>
             <svg class="icon icon--white collapsible__chevron">
               <use xlink:href="images/sprite.svg#chevron"></use>
             </svg>
-          </header>
+          </div>
           <div class="collapsible__content">
             <ul class="list">
               <li>
@@ -553,27 +576,33 @@
           </div>
         </section>
         <section class="collapsible footer__section">
-          <header class="collapsible__header">
+          <div class="collapsible__header">
             <h2 class="collapsible__heading footer__heading">Bedrijf</h2>
             <svg class="icon icon--white collapsible__chevron">
               <use xlink:href="images/sprite.svg#chevron"></use>
             </svg>
-          </header>
+          </div>
           <div class="collapsible__content">
             <ul class="list">
-              <li><a href="#">Over Ons</a></li>
-              <li><a href="#">Wie ben ik?</a></li>
-              <li><a href="#">Geslaagden</a></li>
+              <li><a href="#rijschool">Over Ons</a></li>
+              <li><a href="#ikzelf">Wie ben ik?</a></li>
+              <li>
+                <a
+                  href="https://www.facebook.com/photo.php?fbid=1256959438656810&set=pb.100030282980193.-2207520000&type=3"
+                  target="_blank"
+                  >Geslaagden</a
+                >
+              </li>
             </ul>
           </div>
         </section>
         <section class="collapsible footer__section">
-          <header class="collapsible__header">
+          <div class="collapsible__header">
             <h2 class="collapsible__heading footer__heading">Contact</h2>
             <svg class="icon icon--white collapsible__chevron">
               <use xlink:href="images/sprite.svg#chevron"></use>
             </svg>
-          </header>
+          </div>
           <div class="collapsible__content">
             <ul class="list">
               <li><a href="tel:0654967819">Contact</a></li>
@@ -583,10 +612,10 @@
           </div>
         </section>
         <section class="collapsible footer__section"></section>
-        <section class="footer__brand">
+        <div class="footer__brand">
           <img src="images/logo.png" alt="" />
           <p class="footer__copyright">&copy; Copyright 2024 Bas Glazenborg</p>
-        </section>
+        </div>
       </div>
     </footer>
 
